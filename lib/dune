@@ -1,0 +1,8 @@
+(library
+ (name nonogram_solver)
+ (libraries z3))
+
+(ocamllex lexer)
+
+(menhir
+ (modules parser))

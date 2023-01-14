@@ -1,0 +1,6 @@
+(executable
+ (public_name nonogram_solver)
+ (name main)
+ (modes byte exe)
+ (libraries nonogram_solver)
+ (flags (:standard -w +A -warn-error -A)))
